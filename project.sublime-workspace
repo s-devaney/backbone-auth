@@ -1,0 +1,547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filter",
+				"filterCriterion"
+			],
+			[
+				"_current",
+				"_currentFilter"
+			],
+			[
+				"_curren",
+				"_currentCriteron"
+			],
+			[
+				"collection",
+				"collectionView"
+			],
+			[
+				"Contac",
+				"ContactsApp"
+			],
+			[
+				"edit",
+				"edit"
+			],
+			[
+				"ini",
+				"initalize"
+			],
+			[
+				"init",
+				"initalize"
+			],
+			[
+				"initia",
+				"initializing"
+			],
+			[
+				"Employee",
+				"EmployeeListView"
+			],
+			[
+				"Emplo",
+				"EmployeeDetailTemplate"
+			],
+			[
+				"em",
+				"employeeForm"
+			],
+			[
+				"var",
+				"variables"
+			],
+			[
+				"au",
+				"auto-binding"
+			],
+			[
+				"app-r",
+				"app-router"
+			],
+			[
+				"onkey",
+				"onkeypress	Attr"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"swip",
+				"swipeable-card"
+			],
+			[
+				"vi",
+				"viewportToPX"
+			],
+			[
+				"add",
+				"addPlayerToLeaderboard"
+			],
+			[
+				"sender",
+				"senderIndex"
+			],
+			[
+				"current",
+				"currentQuestion"
+			],
+			[
+				"onPlayer",
+				"onPlayerDisconnect"
+			],
+			[
+				"onSen",
+				"onSenderConnect"
+			],
+			[
+				"send",
+				"senderId"
+			],
+			[
+				"player",
+				"playerObj"
+			],
+			[
+				"clear",
+				"clearGuess"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: HTML"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Development/backbone-auth"
+	],
+	"file_history":
+	[
+		"/F/Development/marionette-test/assets/index.html",
+		"/F/Development/marionette-test/assets/js/app/login/app.js",
+		"/F/Development/marionette-test/assets/js/app/login/form/form_controller.js",
+		"/F/Development/marionette-test/assets/js/app/login/form/form_view.js",
+		"/F/Development/backbone-auth/package.json",
+		"/F/Development/marionette-test/assets/js/app/about/app.js",
+		"/F/Development/marionette-test/assets/js/app/about/show/show_controller.js",
+		"/F/Development/marionette-test/assets/js/app/about/show/show_view.js",
+		"/F/Development/marionette-test/assets/js/app/login/login_controller.js",
+		"/F/Development/marionette-test/assets/js/entity/contact.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/list/list_view.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/list/list_controller.js",
+		"/F/Development/marionette-test/assets/js/app/header/app.js",
+		"/F/Development/marionette-test/assets/js/router.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/app.js",
+		"/F/Development/marionette-test/assets/js/app.js",
+		"/F/Development/marionette-test/assets/js/app/session/session_controller.js",
+		"/F/Development/marionette-test/assets/js/entity/user.js",
+		"/F/Development/marionette-test/assets/js/entity/common.js",
+		"/F/Development/marionette-test/assets/js/app/auth/auth_controller.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/edit/edit_controller.js",
+		"/F/Development/marionette-test/assets/js/app/auth/auth_controller.j",
+		"/F/Development/marionette-test/config/routes.js",
+		"/F/Development/marionette-test/config/blueprints.js",
+		"/F/Development/marionette-test/.gitignore",
+		"/F/Development/marionette-test/js/app/header/app.js",
+		"/F/Development/marionette-test/js/app.js",
+		"/F/Development/marionette-test/js/entity/header.js",
+		"/F/Development/marionette-test/js/app/header/list/list_controller.js",
+		"/F/Development/marionette-test/js/app/about/app.js",
+		"/F/Development/marionette-test/js/app/contacts/app.js",
+		"/F/Development/marionette-test/js/app/header/list/list_view.js",
+		"/F/Development/marionette-test/index.html",
+		"/F/Development/marionette-test/js/app/header/list_view.js",
+		"/F/Development/marionette-test/js/app/contacts/list/list_view.js",
+		"/F/Development/marionette-test/js/entity/contact.js",
+		"/F/Development/marionette-test/js/app/about/show/show_view.js",
+		"/F/Development/marionette-test/js/app/about/show/show_controller.js",
+		"/F/Development/marionette-test/js/app/contacts/list/list_controller.js",
+		"/F/Development/marionette-test/js/entity/common.js",
+		"/F/Development/marionette-test/js/app/contacts/common/views.js",
+		"/F/Development/marionette-test/js/app/contacts/edit/edit_view.js",
+		"/F/Development/marionette-test/js/app/contacts/new/new_view.js",
+		"/F/Development/marionette-test/js/app/contacts/edit/edit_controller.js",
+		"/F/Development/marionette-test/js/common/views.js",
+		"/F/Development/marionette-test/js/app/contacts/show/show_controller.js",
+		"/F/Development/marionette-test/js/localstorage.js",
+		"/F/Development/marionette-test/js/app/contacts/show/show_view.js",
+		"/F/Development/sailstest/assets/js/controller/login.js",
+		"/F/Development/sailstest/assets/js/controller/user.js",
+		"/F/Development/sailstest/assets/js/app.js",
+		"/F/Development/sailstest/assets/js/router.js",
+		"/F/Development/sailstest/assets/index.html",
+		"/F/Development/sailstest/assets/js/main.js",
+		"/F/Development/sailstest/.sailsrc",
+		"/F/Development/sailstest/assets/js/view/login/form.js",
+		"/F/Development/sailstest/assets/js/controller/register.js",
+		"/F/Development/sailstest/assets/js/view/register/form.js",
+		"/F/Development/sailstest/assets/js/collection/employees.js",
+		"/F/Development/sailstest/assets/js/model/user.js",
+		"/F/Development/sailstest/assets/template/login/form.html",
+		"/F/Development/sailstest/assets/js/model/employee.js",
+		"/F/Development/sailstest/assets/template/register/form.html",
+		"/F/Development/sailstest/assets/template/employee/form.html",
+		"/F/Development/sailstest/assets/template/employee/detail.html",
+		"/F/Development/sailstest/assets/template/employee/list.html",
+		"/F/Development/sailstest/assets/js/view/employee/list.js",
+		"/F/Development/sailstest/assets/js/view/employee/detail.js",
+		"/F/Development/sailstest/assets/js/view/employee/form.js",
+		"/F/Development/sailstest/README.md",
+		"/F/Development/sailstest/assets/js/view/employee/employee-form.js",
+		"/F/Development/sailstest/assets/js/routes/index.js",
+		"/F/Development/sailstest/api/models/User.js",
+		"/F/Development/sailstest/api/services/CipherService.js",
+		"/F/Development/sailstest/config/passport.js",
+		"/F/Development/sailstest/.gitignore",
+		"/F/Development/sailstest/package.json",
+		"/C/Users/Sam Devaney/AppData/Roaming/npm/node_modules/npm/node_modules/node-gyp/lib/configure.js",
+		"/F/Development/sailstest/tasks/config/watch.js",
+		"/F/Development/sailstest/assets/js/app/bootload.js",
+		"/F/Development/sailstest/npm-debug.log",
+		"/F/Development/sailstest/assets/js/collections/employees.js",
+		"/F/Development/sailstest/assets/js/views/employee-form.js",
+		"/F/Development/sailstest/assets/js/views/employee.js",
+		"/F/Development/sailstest/assets/js/models/employee.js",
+		"/F/Development/sailstest/assets/js/views/employees.js",
+		"/F/Development/sailstest/assets/js/views/user-form.js",
+		"/F/Development/sailstest/assets/js/models/user.js",
+		"/F/Development/sailstest/assets/js/app/app.js",
+		"/F/Development/sailstest/config/log.js",
+		"/F/Development/sailstest/config/session.js",
+		"/F/Development/sailstest/api/models/Employee.js",
+		"/F/Development/sailstest/config/bootstrap.js",
+		"/F/Development/sailstest/node_modules/sails-permissions/config/fixtures/permission.js",
+		"/F/Development/sailstest/config/policies.js",
+		"/F/Development/sailstest/config/models.js",
+		"/F/Development/sailstest/api/controllers/EmployeeController.js",
+		"/F/Development/sailstest/node_modules/sails-permissions/api/models/User.js",
+		"/F/Development/sailstest/node_modules/sails-auth/api/models/User.js",
+		"/F/Development/sailstest/node_modules/sails-auth/api/models/Passport.js",
+		"/F/Development/sailstest/node_modules/sails-auth/api/hooks/sails-auth.js",
+		"/F/Development/sailstest/config/local.js",
+		"/F/Development/sailstest/api/policies/sessionAuth.js",
+		"/F/Development/sailstest/assets/models/user.js",
+		"/F/Development/sailstest/assets/js/test-view.js",
+		"/C/Users/Sam Devaney/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-snippet",
+		"/F/Development/sailstest/tasks/register/build.js",
+		"/F/Development/sailstest/tasks/README.md",
+		"/F/Development/sailstest/Gruntfile.js",
+		"/F/Development/Football/dev/elements/game/game-nav/game-nav.html",
+		"/F/Development/Football/.gitignore",
+		"/F/Development/Football/dev/imports/routing.html",
+		"/F/Development/Football/bower_components/paper-toolbar/paper-toolbar.html",
+		"/F/Development/Football/bower_components/iron-selector/iron-selectable.html",
+		"/F/Development/Football/bower_components/paper-menu/paper-submenu.html",
+		"/F/Development/Football/bower_components/more-routing/route.html",
+		"/F/Development/Football/bower_components/more-routing/more-route.html",
+		"/F/Development/Football/bower_components/more-routing/more-route-selection.html",
+		"/F/Development/Football/bower_components/more-routing/routing.html",
+		"/F/Development/Football/bower_components/more-routing/more-route-selector.html",
+		"/F/Development/Football/bower_components/more-routing/more-routing.html",
+		"/F/Development/Football/bower_components/more-routing/more-routing-config.html",
+		"/F/Development/Football/bower_components/more-routing/more-route-template-helpers.html",
+		"/F/Development/Football/bower_components/more-routing/driver.html",
+		"/F/Development/Football/bower_components/more-routing/emitter.html",
+		"/F/Development/Football/bower_components/more-routing/driver/hash.html",
+		"/F/Development/Football/bower_components/iron-selector/iron-selection.html",
+		"/F/Development/Football/bower_components/paper-menu/paper-menu-shared.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"F:\\Development\\Football\\bower_components\\iron-selector",
+			"F:\\Development\\Football\\bower_components\\iron-menu-behavior",
+			"F:\\Development\\Football\\bower_components\\iron-selector",
+			"F:\\Development\\Football\\bower_components\\more-routing",
+			"F:\\Development\\Football\\bower_components",
+			"F:\\Development\\Football\\bower_components\\more-routing\\driver"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"contactView",
+			"error",
+			"'",
+			"#menu",
+			"console.log",
+			"selectedClass",
+			"iron-selected",
+			"_setRoute",
+			"setCurrentPath",
+			"setRoute",
+			"messages",
+			"fire",
+			"selected-item-changed",
+			"attached",
+			"alert",
+			"setRoute",
+			"_setRoute",
+			"better-paper-item",
+			"#menu",
+			"better-paper-item",
+			"paper-item",
+			"_activateEventChanged",
+			"_addListener",
+			"activateEvent",
+			"activeateEvent",
+			"_addListener",
+			"_setfocusedItem",
+			"tap",
+			"#!",
+			"!",
+			"<a",
+			"selected",
+			"valueattr",
+			"-->",
+			"<-",
+			"<",
+			"<!--",
+			"function resolve",
+			"material",
+			"paper-item",
+			"#fff",
+			";\n",
+			"paper-toolbar",
+			"}\n",
+			"computeDrawe",
+			"mode",
+			"computeMediaQuery",
+			"drawerWidth",
+			"computeDrawerStyle",
+			"computerDrawerStyle",
+			"drawerWidth",
+			"drawerPanel",
+			"drawer-panel",
+			"width",
+			"e4",
+			"r4",
+			"frame",
+			"shadow",
+			"main",
+			"narrow",
+			"core",
+			"sub",
+			"core",
+			"bower-components",
+			"../../../",
+			"transitionend",
+			"transition",
+			"swipeEnd",
+			";\n",
+			"swipedChanged",
+			"this.offsetWi",
+			"dragging",
+			"transitionEnd",
+			"material",
+			"paper-material",
+			"transitionEnd",
+			"core",
+			"session.game.data.questions.data",
+			"session.game.data.questions",
+			"getQuestion",
+			"font-size",
+			"device",
+			"API",
+			"kickstart",
+			"z-index",
+			"messageListener",
+			"getHost",
+			"getSenderBy",
+			"route",
+			"selectRoute",
+			"getRoutes",
+			"getRoutes()",
+			"onStop",
+			"onPause",
+			"onStop",
+			"onPause",
+			"namespace",
+			"messageLi",
+			"messagelistener",
+			"namespace",
+			".score",
+			"red",
+			"lobby",
+			".red",
+			".green",
+			"broadcast",
+			"cast.js",
+			"grey",
+			"4px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			".menu",
+			"paper-item",
+			".menu",
+			"paper-item",
+			"better-paper-item",
+			"paper",
+			"bower_components",
+			"../../../bower-components/",
+			"paper-task",
+			".points",
+			"light-grey"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
