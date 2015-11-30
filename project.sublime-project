@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "F:\\Development\\marionette-test"
 		}
 	]
 }

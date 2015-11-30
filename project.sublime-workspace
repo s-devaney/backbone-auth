@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Bac",
+				"BackboneAuth"
+			],
+			[
+				"Header",
+				"HeaderCollection"
+			],
+			[
 				"filter",
 				"filterCriterion"
 			],
@@ -115,6 +123,89 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "assets/index.html",
+			"settings":
+			{
+				"buffer_size": 2063,
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
+			}
+		},
+		{
+			"file": "assets/js/app/header/entities.js",
+			"settings":
+			{
+				"buffer_size": 1116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/app/header/app.js",
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Windows",
+				"name": "BackboneAuth.module(\"HeaderApp\", function() {"
+			}
+		},
+		{
+			"file": "assets/js/app/header/list/view.js",
+			"settings":
+			{
+				"buffer_size": 811,
+				"line_ending": "Windows",
+				"name": "BackboneAuth.module(\"HeaderApp.List\", function() {"
+			}
+		},
+		{
+			"file": "assets/js/app/header/list/controller.js",
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Development/marionette-test/assets/index.html",
+			"settings":
+			{
+				"buffer_size": 5740,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Development/marionette-test/assets/js/app/header/app.js",
+			"settings":
+			{
+				"buffer_size": 453,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Development/marionette-test/assets/js/entity/header.js",
+			"settings":
+			{
+				"buffer_size": 975,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Development/marionette-test/assets/js/app/header/list/list_controller.js",
+			"settings":
+			{
+				"buffer_size": 845,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Development/marionette-test/assets/js/app/header/list/list_view.js",
+			"settings":
+			{
+				"buffer_size": 815,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -152,15 +243,39 @@
 	},
 	"expanded_folders":
 	[
-		"/F/Development/backbone-auth"
+		"/F/Development/backbone-auth",
+		"/F/Development/backbone-auth/assets",
+		"/F/Development/backbone-auth/assets/js",
+		"/F/Development/backbone-auth/assets/js/app",
+		"/F/Development/backbone-auth/assets/js/app/header",
+		"/F/Development/backbone-auth/assets/js/app/header/list",
+		"/F/Development/backbone-auth/config/locales",
+		"/F/Development/marionette-test",
+		"/F/Development/marionette-test/assets",
+		"/F/Development/marionette-test/assets/js",
+		"/F/Development/marionette-test/assets/js/app",
+		"/F/Development/marionette-test/assets/js/app/header",
+		"/F/Development/marionette-test/assets/js/app/header/list",
+		"/F/Development/marionette-test/assets/js/entity"
 	],
 	"file_history":
 	[
+		"/F/Development/backbone-auth/assets/js/app/header/entity/header.js",
+		"/F/Development/backbone-auth/assets/js/main.js",
+		"/F/Development/marionette-test/assets/js/app.js",
+		"/F/Development/marionette-test/assets/js/router.js",
+		"/F/Development/backbone-auth/assets/app.js",
+		"/F/Development/backbone-auth/config/models.js",
+		"/F/Development/backbone-auth/config/policies.js",
+		"/F/Development/backbone-auth/config/routes.js",
+		"/F/Development/backbone-auth/package.json",
+		"/F/Development/marionette-test/package.json",
+		"/F/Development/marionette-test/config/policies.js",
+		"/F/Development/backbone-auth/project.sublime-project",
 		"/F/Development/marionette-test/assets/index.html",
 		"/F/Development/marionette-test/assets/js/app/login/app.js",
 		"/F/Development/marionette-test/assets/js/app/login/form/form_controller.js",
 		"/F/Development/marionette-test/assets/js/app/login/form/form_view.js",
-		"/F/Development/backbone-auth/package.json",
 		"/F/Development/marionette-test/assets/js/app/about/app.js",
 		"/F/Development/marionette-test/assets/js/app/about/show/show_controller.js",
 		"/F/Development/marionette-test/assets/js/app/about/show/show_view.js",
@@ -169,9 +284,7 @@
 		"/F/Development/marionette-test/assets/js/app/contacts/list/list_view.js",
 		"/F/Development/marionette-test/assets/js/app/contacts/list/list_controller.js",
 		"/F/Development/marionette-test/assets/js/app/header/app.js",
-		"/F/Development/marionette-test/assets/js/router.js",
 		"/F/Development/marionette-test/assets/js/app/contacts/app.js",
-		"/F/Development/marionette-test/assets/js/app.js",
 		"/F/Development/marionette-test/assets/js/app/session/session_controller.js",
 		"/F/Development/marionette-test/assets/js/entity/user.js",
 		"/F/Development/marionette-test/assets/js/entity/common.js",
@@ -274,16 +387,7 @@
 		"/F/Development/Football/bower_components/more-routing/route.html",
 		"/F/Development/Football/bower_components/more-routing/more-route.html",
 		"/F/Development/Football/bower_components/more-routing/more-route-selection.html",
-		"/F/Development/Football/bower_components/more-routing/routing.html",
-		"/F/Development/Football/bower_components/more-routing/more-route-selector.html",
-		"/F/Development/Football/bower_components/more-routing/more-routing.html",
-		"/F/Development/Football/bower_components/more-routing/more-routing-config.html",
-		"/F/Development/Football/bower_components/more-routing/more-route-template-helpers.html",
-		"/F/Development/Football/bower_components/more-routing/driver.html",
-		"/F/Development/Football/bower_components/more-routing/emitter.html",
-		"/F/Development/Football/bower_components/more-routing/driver/hash.html",
-		"/F/Development/Football/bower_components/iron-selector/iron-selection.html",
-		"/F/Development/Football/bower_components/paper-menu/paper-menu-shared.css"
+		"/F/Development/Football/bower_components/more-routing/routing.html"
 	],
 	"find":
 	{
@@ -445,13 +549,304 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "assets/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<!DOCTYPE html>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/app/header/entities.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/js/app/header/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								222,
+								222
+							]
+						],
+						"settings":
+						{
+							"auto_name": "BackboneAuth.module(\"HeaderApp\", function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/js/app/header/list/view.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"auto_name": "BackboneAuth.module(\"HeaderApp.List\", function() {",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/js/app/header/list/controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								892,
+								892
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 5,
+					"file": "/F/Development/marionette-test/assets/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1195,
+								1195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/F/Development/marionette-test/assets/js/app/header/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/F/Development/marionette-test/assets/js/entity/header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 975,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/F/Development/marionette-test/assets/js/app/header/list/list_controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/F/Development/marionette-test/assets/js/app/header/list/list_view.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],

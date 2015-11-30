@@ -3,8 +3,56 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Backbone Auth</title>
-		<link rel="stylesheet" href="css/" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="css/application.css" type="text/css" />
+		<link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css" type="text/css" />
 	</head>
 	<body>
+		<!-- define regions -->
+		<div id="app-container">
+			<div id="header-region"></div>
+			<div id="main-region" class="container">
+				<p>Error: application failed to start</p>
+				<!-- TODO - replace with spinner? -->
+			</div>
+			<div id="dialog-region"></div>
+		</div>
+		<!-- HeaderApp templates -->
+		<script type="text/template" id="header-template">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="javascript:void(0)">BackboneAuth</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav"></ul>
+					</div>
+				</div>
+			</div>
+		</script>
+		<script type="text/template" id="header-link-template">
+			<a href="#<%- url %>"><%- name %></a>
+		</script>
+		<!-- js lib -->
+		<script src="js/lib/jquery-2.1.4.min.js"></script>
+		<script src="js/lib/jquery-ui-1.10.3.js"></script>
+		<script src="js/lib/underscore-min.js"></script>
+		<script src="js/lib/backbone-min.js"></script>
+		<script src="js/lib/backbone.picky.js"></script>
+		<script src="js/lib/backbone.syphon.js"></script>
+		<script src="js/lib/backbone.babysitter.min.js"></script>
+		<script src="js/lib/backbone.wreqr.min.js"></script>
+		<script src="js/lib/backbone.radio.min.js"></script>
+		<script src="js/lib/backbone.marionette.min.js"></script>
+		<script src="js/lib/spin.js"></script>
+		<script src="js/lib/spin.jquery.js"></script>
+		<!-- js bootstrap -->
+		<script src="js/main.js"></script>
+		<!-- js header app -->
+		<script src="js/app/header/app.js"></script>
+		<script src="js/app/header/entities.js"></script>
+		<script src="js/app/header/list/view.js"></script>
+		<script src="js/app/header/list/controller.js"></script>
+		<script type="text/javascript">
+			BackboneAuth.start();
+		</script>
 	</body>
 </html>
