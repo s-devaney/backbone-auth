@@ -17,6 +17,7 @@ BackboneAuth.module("HeaderApp.Entities", function(Entities, BackboneAuth, Backb
 
 	var initializeHeaders = function() {
 		Entities.headers = new Entities.HeaderCollection([
+			{name: "Home", url: "", navigationTrigger: "home:show"},
 			{name: "Users", url: "users", navigationTrigger: "users:list"},
 			{name: "Login", url: "login", navigationTrigger: "login:show"},
 			{name: "Register", url: "register", navigationTrigger: "register:show"},

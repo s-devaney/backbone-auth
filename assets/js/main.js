@@ -60,10 +60,9 @@ BackboneAuth.on("start", function() {
 		Backbone.history.start();
 
 		// set default route
-		// TODO - initial route should be handled by session controller?
 		if(this.getCurrentRoute() == "") {
-			console.log("triggering default route");
-			BackboneAuth.trigger("login:show");
+			console.log("triggering default route (home)");
+			BackboneAuth.trigger("home:show");
 		}
 	}
 });

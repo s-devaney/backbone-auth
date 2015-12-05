@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"init",
+				"initializeSession"
+			],
+			[
+				"session",
+				"sessionChannel"
+			],
+			[
+				"Backbo",
+				"BackboneAuth"
+			],
+			[
 				"Bac",
 				"BackboneAuth"
 			],
@@ -37,10 +49,6 @@
 			],
 			[
 				"ini",
-				"initalize"
-			],
-			[
-				"init",
 				"initalize"
 			],
 			[
@@ -124,60 +132,42 @@
 	"buffers":
 	[
 		{
+			"file": "assets/js/app/session/app.js",
+			"settings":
+			{
+				"buffer_size": 642,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/index.html",
 			"settings":
 			{
-				"buffer_size": 2063,
-				"line_ending": "Windows",
-				"name": "<!DOCTYPE html>"
+				"buffer_size": 4319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/app/session/controller.js",
+			"settings":
+			{
+				"buffer_size": 307,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/app/login/show/controller.js",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/js/app/login/app.js",
 			"settings":
 			{
-				"buffer_size": 530,
-				"line_ending": "Windows",
-				"name": "BackboneAuth.module(\"LoginApp\", function(Login, Ba"
-			}
-		},
-		{
-			"file": "assets/js/app/login/show/view.js",
-			"settings":
-			{
-				"buffer_size": 400,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/Development/marionette-test/assets/js/app/about/show/show_controller.js",
-			"settings":
-			{
-				"buffer_size": 234,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/Development/marionette-test/assets/js/app/about/show/show_view.js",
-			"settings":
-			{
-				"buffer_size": 191,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/Development/marionette-test/assets/js/app/contacts/edit/edit_view.js",
-			"settings":
-			{
-				"buffer_size": 501,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/F/Development/marionette-test/assets/js/app/contacts/common/views.js",
-			"settings":
-			{
-				"buffer_size": 1041,
+				"buffer_size": 518,
 				"line_ending": "Windows"
 			}
 		}
@@ -219,37 +209,64 @@
 	"expanded_folders":
 	[
 		"/F/Development/backbone-auth",
+		"/F/Development/backbone-auth/api/controllers",
+		"/F/Development/backbone-auth/api/models",
+		"/F/Development/backbone-auth/api/policies",
+		"/F/Development/backbone-auth/api/services",
 		"/F/Development/backbone-auth/assets",
 		"/F/Development/backbone-auth/assets/js",
 		"/F/Development/backbone-auth/assets/js/app",
+		"/F/Development/backbone-auth/assets/js/app/header/list",
+		"/F/Development/backbone-auth/assets/js/app/home/show",
 		"/F/Development/backbone-auth/assets/js/app/login",
 		"/F/Development/backbone-auth/assets/js/app/login/show",
+		"/F/Development/backbone-auth/assets/js/app/session",
 		"/F/Development/marionette-test",
 		"/F/Development/marionette-test/assets",
 		"/F/Development/marionette-test/assets/js",
 		"/F/Development/marionette-test/assets/js/app",
-		"/F/Development/marionette-test/assets/js/app/about",
-		"/F/Development/marionette-test/assets/js/app/about/show",
 		"/F/Development/marionette-test/assets/js/app/contacts",
-		"/F/Development/marionette-test/assets/js/app/contacts/common",
-		"/F/Development/marionette-test/assets/js/app/contacts/edit",
-		"/F/Development/marionette-test/assets/js/app/header/list",
-		"/F/Development/marionette-test/assets/js/entity"
+		"/F/Development/marionette-test/assets/js/app/contacts/list"
 	],
 	"file_history":
 	[
+		"/F/Development/backbone-auth/assets/index.html",
+		"/F/Development/backbone-auth/assets/js/app/session/app.js",
+		"/F/Development/backbone-auth/assets/js/main.js",
+		"/F/Development/backbone-auth/assets/js/app/header/entities.js",
+		"/F/Development/backbone-auth/assets/js/app/header/list/controller.js",
+		"/F/Development/backbone-auth/assets/js/app/home/app.js",
+		"/F/Development/backbone-auth/assets/js/app/home/show/view.js",
+		"/F/Development/backbone-auth/assets/js/app/home/show/controller.js",
+		"/F/Development/backbone-auth/assets/js/app/session/controller.js",
+		"/F/Development/backbone-auth/assets/js/app/session/entity.js",
+		"/F/Development/backbone-auth/assets/js/app/login/show/view.js",
+		"/F/Development/backbone-auth/assets/js/error.js",
+		"/F/Development/backbone-auth/assets/js/app/login/app.js",
+		"/F/Development/backbone-auth/assets/js/app/register/show/view.js",
+		"/F/Development/backbone-auth/assets/js/app/login/entity.js",
+		"/F/Development/backbone-auth/assets/js/app/register/show/controller.js",
+		"/F/Development/backbone-auth/assets/js/app/register/app.js",
+		"/F/Development/backbone-auth/assets/js/app/register/entity.js",
+		"/F/Development/backbone-auth/assets/js/app/login/show/controller.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/list/list_controller.js",
+		"/F/Development/backbone-auth/api/controllers/AuthController.js",
+		"/F/Development/backbone-auth/api/models/User.js",
+		"/F/Development/backbone-auth/config/log.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/app.js",
+		"/F/Development/marionette-test/assets/js/app/about/show/show_controller.js",
+		"/F/Development/marionette-test/assets/js/app/about/show/show_view.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/edit/edit_view.js",
+		"/F/Development/marionette-test/assets/js/app/contacts/common/views.js",
 		"/F/Development/backbone-auth/assets/js/app/header/app.js",
 		"/F/Development/marionette-test/assets/js/app/about/app.js",
-		"/F/Development/backbone-auth/assets/js/app/header/entities.js",
 		"/F/Development/marionette-test/assets/js/app/header/list/list_view.js",
 		"/F/Development/marionette-test/assets/js/app/header/list/list_controller.js",
 		"/F/Development/marionette-test/assets/js/entity/header.js",
 		"/F/Development/marionette-test/assets/js/app/header/app.js",
 		"/F/Development/marionette-test/assets/index.html",
-		"/F/Development/backbone-auth/assets/js/app/header/list/controller.js",
 		"/F/Development/backbone-auth/assets/js/app/header/list/view.js",
 		"/F/Development/backbone-auth/assets/js/app/header/entity/header.js",
-		"/F/Development/backbone-auth/assets/js/main.js",
 		"/F/Development/marionette-test/assets/js/app.js",
 		"/F/Development/marionette-test/assets/js/router.js",
 		"/F/Development/backbone-auth/assets/app.js",
@@ -263,13 +280,9 @@
 		"/F/Development/marionette-test/assets/js/app/login/app.js",
 		"/F/Development/marionette-test/assets/js/app/login/form/form_controller.js",
 		"/F/Development/marionette-test/assets/js/app/login/form/form_view.js",
-		"/F/Development/marionette-test/assets/js/app/about/show/show_controller.js",
-		"/F/Development/marionette-test/assets/js/app/about/show/show_view.js",
 		"/F/Development/marionette-test/assets/js/app/login/login_controller.js",
 		"/F/Development/marionette-test/assets/js/entity/contact.js",
 		"/F/Development/marionette-test/assets/js/app/contacts/list/list_view.js",
-		"/F/Development/marionette-test/assets/js/app/contacts/list/list_controller.js",
-		"/F/Development/marionette-test/assets/js/app/contacts/app.js",
 		"/F/Development/marionette-test/assets/js/app/session/session_controller.js",
 		"/F/Development/marionette-test/assets/js/entity/user.js",
 		"/F/Development/marionette-test/assets/js/entity/common.js",
@@ -344,28 +357,7 @@
 		"/F/Development/sailstest/assets/js/models/user.js",
 		"/F/Development/sailstest/assets/js/app/app.js",
 		"/F/Development/sailstest/config/log.js",
-		"/F/Development/sailstest/config/session.js",
-		"/F/Development/sailstest/api/models/Employee.js",
-		"/F/Development/sailstest/config/bootstrap.js",
-		"/F/Development/sailstest/node_modules/sails-permissions/config/fixtures/permission.js",
-		"/F/Development/sailstest/config/policies.js",
-		"/F/Development/sailstest/config/models.js",
-		"/F/Development/sailstest/api/controllers/EmployeeController.js",
-		"/F/Development/sailstest/node_modules/sails-permissions/api/models/User.js",
-		"/F/Development/sailstest/node_modules/sails-auth/api/models/User.js",
-		"/F/Development/sailstest/node_modules/sails-auth/api/models/Passport.js",
-		"/F/Development/sailstest/node_modules/sails-auth/api/hooks/sails-auth.js",
-		"/F/Development/sailstest/config/local.js",
-		"/F/Development/sailstest/api/policies/sessionAuth.js",
-		"/F/Development/sailstest/assets/models/user.js",
-		"/F/Development/sailstest/assets/js/test-view.js",
-		"/C/Users/Sam Devaney/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-snippet",
-		"/F/Development/sailstest/tasks/register/build.js",
-		"/F/Development/sailstest/tasks/README.md",
-		"/F/Development/sailstest/Gruntfile.js",
-		"/F/Development/Football/dev/elements/game/game-nav/game-nav.html",
-		"/F/Development/Football/.gitignore",
-		"/F/Development/Football/dev/imports/routing.html"
+		"/F/Development/sailstest/config/session.js"
 	],
 	"find":
 	{
@@ -532,82 +524,83 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assets/index.html",
+					"file": "assets/js/app/session/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2063,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								781,
-								781
+								642,
+								642
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<!DOCTYPE html>",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "assets/js/app/login/app.js",
+					"file": "assets/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 4319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								526,
-								526
+								3256,
+								3256
 							]
 						],
 						"settings":
 						{
-							"auto_name": "BackboneAuth.module(\"LoginApp\", function(Login, Ba",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "assets/js/app/login/show/view.js",
+					"file": "assets/js/app/session/controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 400,
+						"buffer_size": 307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								400,
-								400
+								307,
+								307
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -619,72 +612,16 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 3,
-					"file": "/F/Development/marionette-test/assets/js/app/about/show/show_controller.js",
+					"file": "assets/js/app/login/show/controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/F/Development/marionette-test/assets/js/app/about/show/show_view.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 191,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/F/Development/marionette-test/assets/js/app/contacts/edit/edit_view.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 501,
+						"buffer_size": 862,
 						"regions":
 						{
 						},
@@ -708,20 +645,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/F/Development/marionette-test/assets/js/app/contacts/common/views.js",
+					"buffer": 4,
+					"file": "assets/js/app/login/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1041,
+						"buffer_size": 518,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								518,
+								518
 							]
 						],
 						"settings":
@@ -733,7 +670,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

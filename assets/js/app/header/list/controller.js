@@ -7,7 +7,7 @@ BackboneAuth.module("HeaderApp.List", function(List, BackboneAuth, Marionette, B
 
 			headers.on("brand:clicked", function() {
 				// TODO - default action
-				BackboneAuth.trigger("");
+				BackboneAuth.trigger("home:show");
 			});
 
 			headers.on("childview:navigate", function(childView, model) {

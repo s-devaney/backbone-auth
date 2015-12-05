@@ -35,6 +35,7 @@ module.exports = {
 	*/
 	register: function (req, res) {
 		req._sails.log.silly('creating user');
+		req._sails.log.silly(req.allParams());
 
 		User
 			.create(_.omit(req.allParams(), 'id'))
