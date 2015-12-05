@@ -33,7 +33,7 @@ module.exports = {
 	* @param {Object} req Request object
 	* @param {Object} res Response object
 	*/
-	signup: function (req, res) {
+	register: function (req, res) {
 		req._sails.log.silly('creating user');
 
 		User
@@ -57,7 +57,7 @@ module.exports = {
 	* @param {Object} req Request object
 	* @param {Object} res Response object
 	*/
-	signin: function (req, res) {
+	login: function (req, res) {
 		passport.authenticate('local', _onPassportAuth.bind(this, req, res))(req, res);
 	}
 };
