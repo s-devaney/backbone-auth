@@ -62,8 +62,8 @@ BackboneAuth.on("start", function() {
 		// set default route
 		// TODO - initial route should be handled by session controller?
 		if(this.getCurrentRoute() == "") {
-			console.log("triggering defualt route");
-			BackboneAuth.trigger("contacts:list")
+			console.log("triggering default route");
+			BackboneAuth.trigger("login:show");
 		}
 	}
 });

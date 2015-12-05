@@ -31,6 +31,20 @@
 		<script type="text/template" id="header-link-template">
 			<a href="#<%- url %>"><%- name %></a>
 		</script>
+		<!-- LoginApp templates -->
+		<script type="text/template" id="login-form-template">
+			<form>
+				<div class="control-group">
+					<label for="login-username" class="control-label">Username:</label>
+					<input id="login-username" name="username" type="text" />
+				</div>
+				<div class="control-group">
+					<label for="login-password" class="control-label">Password:</label>
+					<input id="login-password" name="password" type="password" />
+				</div>
+				<button class="btn js-submit">Login</button>
+			</form>
+		</script>
 		<!-- js lib -->
 		<script src="js/lib/jquery-2.1.4.min.js"></script>
 		<script src="js/lib/jquery-ui-1.10.3.js"></script>
@@ -51,6 +65,10 @@
 		<script src="js/app/header/entities.js"></script>
 		<script src="js/app/header/list/view.js"></script>
 		<script src="js/app/header/list/controller.js"></script>
+		<!-- js login app -->
+		<script src="js/app/login/app.js"></script>
+		<script src="js/app/login/show/view.js"></script>
+		<script src="js/app/login/show/controller.js"></script>
 		<script type="text/javascript">
 			BackboneAuth.start();
 		</script>

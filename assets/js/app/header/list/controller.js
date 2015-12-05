@@ -19,10 +19,14 @@ BackboneAuth.module("HeaderApp.List", function(List, BackboneAuth, Marionette, B
 		},
 
 		setActiveHeader: function(headerUrl) {
-			var links = ContactManager.request("header:entities");
+			console.log(headerUrl);
+			var links = BackboneAuth.request("header:entities");
+			window.linksback = links;
 			var headerToSelect = links.find(function(header) {
 				return header.get("url") === headerUrl;
 			});
+
+			console.log(headerToSelect);
 
 			headerToSelect.select();
 			links.trigger("reset");

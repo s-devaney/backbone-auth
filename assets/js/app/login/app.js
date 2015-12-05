@@ -1,5 +1,5 @@
-BackboneAuth.module("LoginApp", function(Login, BackboneAuth, Marionette, Backbone, $, _) { 
-	LoginApp.Router = Marionette.AppRouter.extend({
+BackboneAuth.module("LoginApp", function(Login, BackboneAuth, Backbone, Marionette, $, _) { 
+	Login.Router = Marionette.AppRouter.extend({
 		appRoutes: {
 			"login": "showLogin"
 		}
@@ -7,8 +7,8 @@ BackboneAuth.module("LoginApp", function(Login, BackboneAuth, Marionette, Backbo
 
 	var API = {
 		showLogin: function() {
-			LoginApp.Show.Controller.showLogin();
-			BackboneAuth.execute("set:active:header", "about");
+			Login.Show.Controller.showLogin();
+			BackboneAuth.execute("set:active:header", "login");
 		}
 	};
 
@@ -17,8 +17,8 @@ BackboneAuth.module("LoginApp", function(Login, BackboneAuth, Marionette, Backbo
 		API.showLogin();
 	});
 
-	LoginApp.on("start", function() {
-		new LoginApp.Router({
+	Login.on("start", function() {
+		new Login.Router({
 			controller: API
 		});
 	});

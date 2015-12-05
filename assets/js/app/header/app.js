@@ -8,7 +8,7 @@ BackboneAuth.module("HeaderApp", function(Header, BackboneAuth, Marionette, Back
 	};
 
 	BackboneAuth.commands.setHandler("set:active:header", function(name) {
-		ContactManager.HeaderApp.List.Controller.setActiveHeader(name);
+		BackboneAuth.HeaderApp.List.Controller.setActiveHeader(name);
 	});
 
 	Header.on("start", function() {
