@@ -6,15 +6,17 @@ BackboneAuth.module("LoginApp", function(Login, BackboneAuth, Backbone, Marionet
 	});
 
 	var API = {
-		showLogin: function() {
-			Login.Show.Controller.showLogin();
+		showLogin: function(context) {
+			console.log("show login");
+			Login.Show.Controller.showLogin(context);
 			BackboneAuth.execute("set:active:header", "login");
 		}
 	};
 
-	BackboneAuth.on("login:show", function() {
+	BackboneAuth.on("login:show", function(context) {
 		BackboneAuth.navigate("login");
-		API.showLogin();
+		console.log(context);
+		API.showLogin(context);
 	});
 
 	Login.on("start", function() {

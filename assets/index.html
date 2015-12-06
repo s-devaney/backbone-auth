@@ -17,6 +17,12 @@
 			</div>
 			<div id="dialog-region"></div>
 		</div>
+		<!-- Common templates -->
+		<script type="text/template" id="loading-template">
+			<h1><%- title %></h1>
+			<p><%- message %></p>
+			<div id="spinner"></div>
+		</script>
 		<!-- HeaderApp templates -->
 		<script type="text/template" id="header-template">
 			<div class="navbar-inner">
@@ -39,6 +45,7 @@
 		<!-- LoginApp templates -->
 		<script type="text/template" id="login-form-template">
 			<h1>Login</h1>
+			<p class="alert"><%- alert %></p>
 			<form>
 				<div class="control-group">
 					<label for="login-username" class="control-label">Username:</label>
@@ -66,6 +73,34 @@
 				<button class="btn js-submit">Register</button>
 			</form>
 		</script>
+		<!-- UsersApp templates -->
+		<script type="text/template" id="users-list-layout">
+			<div id="panel-region"></div>
+			<div id="users-region"></div>
+		</script>
+		<script type="text/template" id="users-list-panel">
+			<button class="btn btn-primary js-new">New contact</button>
+			<form id="filter-form" class="form-search form-inline pull-right">
+				<div class="input-append">
+					<input type="text" class="span2 search-query js-filter-criterion">
+					<button type="submit" class="btn">Filter contacts</button>
+				</div>
+			</form>
+		</script>
+		<script type="text/template" id="users-list-empty-template">
+			<td colspan="3">No contacts to display.</td>
+		</script>
+		<script type="text/template" id="users-list-template">
+			<thead>
+				<tr>
+					<th>First name</th>
+					<th>Last name</th>
+					<th>Delete</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</script>
 		<!-- js lib -->
 		<script src="js/lib/jquery-2.1.4.min.js"></script>
 		<script src="js/lib/jquery-ui-1.10.3.js"></script>
@@ -82,9 +117,10 @@
 		<!-- js bootstrap -->
 		<script src="js/main.js"></script>
 		<script src="js/error.js"></script>
+		<!-- js common -->
+		<script src="js/common/views.js"></script>
 		<!-- js session app -->
 		<script src="js/app/session/app.js"></script>
-		<script src="js/app/session/entity.js"></script>
 		<script src="js/app/session/controller.js"></script>
 		<!-- js header app -->
 		<script src="js/app/header/app.js"></script>
@@ -105,6 +141,11 @@
 		<script src="js/app/register/entity.js"></script>
 		<script src="js/app/register/show/view.js"></script>
 		<script src="js/app/register/show/controller.js"></script>
+		<!-- js users app -->
+		<script src="js/app/users/app.js"></script>
+		<script src="js/app/users/entity/user.js"></script>
+		<script src="js/app/users/list/controller.js"></script>
+		<script src="js/app/users/list/view.js"></script>
 		<!-- bootstrap -->
 		<script type="text/javascript">
 			BackboneAuth.start();

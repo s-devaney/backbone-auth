@@ -15,6 +15,7 @@ BackboneAuth.module("UsersApp.List", function(List, BackboneAuth, Backbone, Mari
 				});
 
 				usersListLayout.on("show", function() {
+					console.log(usersListLayout);
 					usersListLayout.panelRegion.show(usersListPanel);
 					usersListLayout.usersRegion.show(usersListView);
 				});

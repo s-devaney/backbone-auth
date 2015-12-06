@@ -17,7 +17,7 @@ BackboneAuth.module("SessionApp.Controller", function(Controller, BackboneAuth, 
 
 	Controller.EndSession = function() {
 		console.log("Session controller: ending session");
-		localStorage.setItem("BackboneAuthJWT", null);
+		//localStorage.setItem("BackboneAuthJWT", null);
 		sessionChannel.trigger("session:change");
 	};
 

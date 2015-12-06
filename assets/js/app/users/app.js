@@ -18,12 +18,12 @@ BackboneAuth.module("UsersApp", function(UsersApp, BackboneAuth, Backbone, Mario
 		}
 	};
 
-	UsersApp.on("users:list", function() {
+	BackboneAuth.on("users:list", function() {
 		BackboneAuth.navigate("users");
 		API.listUsers();
 	});
 
-	UsersApp.on("user:show", function(id) {
+	BackboneAuth.on("user:show", function(id) {
 		BackboneAuth.navigate("users/" + id);
 		API.showUser(id);
 	});

@@ -1,9 +1,10 @@
 BackboneAuth.module("LoginApp.Show", function(Show, BackboneAuth, Backbone, Marionette, $, _) {
 	Show.Controller = {
-		showLogin: function() {
+		showLogin: function(context) {
 			var sessionChannel = Backbone.Radio.channel("session");
 			var userCredentials = new BackboneAuth.LoginApp.Entity.UserCredentials();
-			var loginFormView = new Show.Form();
+			console.log(context);
+			var loginFormView = new Show.Form({alert: context});
 
 			loginFormView.on("login:submit", function(data) {
 				var result = userCredentials.save(data, {
@@ -20,6 +21,7 @@ BackboneAuth.module("LoginApp.Show", function(Show, BackboneAuth, Backbone, Mari
 				}
 			});
 
+			console.log("show login..");
 			BackboneAuth.region_container.main.show(loginFormView);
 		}
 	}
