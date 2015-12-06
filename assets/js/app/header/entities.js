@@ -21,7 +21,7 @@ BackboneAuth.module("HeaderApp.Entities", function(Entities, BackboneAuth, Backb
 			{name: "Users", url: "users", navigationTrigger: "users:list"},
 			{name: "Login", url: "login", navigationTrigger: "login:show"},
 			{name: "Register", url: "register", navigationTrigger: "register:show"},
-			{name: "Logout", url: "logout", navigationTrigger: "logout:show"}
+			{name: "Logout", url: "logout", navigationTrigger: "session:logout"}
 		]);
 	};
 

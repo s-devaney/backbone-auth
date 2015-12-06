@@ -17,9 +17,9 @@ BackboneAuth.getCurrentRoute = function() {
 
 BackboneAuth.on("before:start", function() {
 	$.ajaxSetup({
-		headers: {
-			"Authorization": "JWT " + BackboneAuth.SessionApp.Controller.getJWT()
-		}
+	    beforeSend: function(xhr) {
+        	xhr.setRequestHeader("Authorization", "JWT " + BackboneAuth.SessionApp.Controller.getJWT());
+    	}
 	});
 
 	var RegionContainer = Marionette.LayoutView.extend({

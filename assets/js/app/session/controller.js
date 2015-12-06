@@ -8,16 +8,18 @@ BackboneAuth.module("SessionApp.Controller", function(Controller, BackboneAuth, 
 
 	Controller.NewSession = function(model) {
 		console.log("Session controller: creating NewSession");
-		var JWT = model.attributes.data.token
+		var JWT = (model.attributes.data === undefined) ? model.attributes.token : model.attributes.data.token;
 		localStorage.setItem("BackboneAuthJWT", JWT);
 		this.JWT = JWT;
+		console.log("New JWT: " + this.JWT);
 		sessionChannel.trigger("session:change");
 		BackboneAuth.trigger("users:list");
 	};
 
 	Controller.EndSession = function() {
 		console.log("Session controller: ending session");
-		//localStorage.setItem("BackboneAuthJWT", null);
+		localStorage.setItem("BackboneAuthJWT", null);
+		this.JWT = null;
 		sessionChannel.trigger("session:change");
 	};
 

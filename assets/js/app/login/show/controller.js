@@ -12,6 +12,10 @@ BackboneAuth.module("LoginApp.Show", function(Show, BackboneAuth, Backbone, Mari
 						console.log("login is good");
 						//pass userCredential model, and defer, to session
 						sessionChannel.trigger("session:login", model);
+					},
+
+					error: function(model, repsonse, options) {
+						console.log("login is bad");
 					}
 				});
 

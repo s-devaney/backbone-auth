@@ -26,7 +26,7 @@ BackboneAuth.module("SessionApp", function(SessionApp, BackboneAuth, Backbone, M
 	};
 
 	sessionChannel.on("session:login", API.login);
-	sessionChannel.on("session:logout", API.logout);
+	BackboneAuth.on("session:logout", API.logout);
 	sessionChannel.on("session:error", API.handleSessionError);
 
 	SessionApp.on("start", function() {
