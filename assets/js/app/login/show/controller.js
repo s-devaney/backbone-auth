@@ -14,8 +14,14 @@ BackboneAuth.module("LoginApp.Show", function(Show, BackboneAuth, Backbone, Mari
 						sessionChannel.trigger("session:login", model);
 					},
 
-					error: function(model, repsonse, options) {
+					error: function(model, response, options) {
 						console.log("login is bad");
+						switch(response.status) {
+							case 401:
+								loginFormView.options.alert = response.responseJSON.message;
+								loginFormView.render();
+								break;
+						}
 					}
 				});
 
@@ -25,7 +31,6 @@ BackboneAuth.module("LoginApp.Show", function(Show, BackboneAuth, Backbone, Mari
 				}
 			});
 
-			console.log("show login..");
 			BackboneAuth.region_container.main.show(loginFormView);
 		}
 	}

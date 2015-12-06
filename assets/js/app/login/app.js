@@ -14,6 +14,8 @@ BackboneAuth.module("LoginApp", function(Login, BackboneAuth, Backbone, Marionet
 	};
 
 	BackboneAuth.on("login:show", function(context) {
+		//check if user is logged in
+		if(BackboneAuth.SessionApp.Controller.getState()) return false;
 		BackboneAuth.navigate("login");
 		console.log(context);
 		API.showLogin(context);

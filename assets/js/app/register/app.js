@@ -13,6 +13,7 @@ BackboneAuth.module("RegisterApp", function(Register, BackboneAuth, Backbone, Ma
 	};
 
 	BackboneAuth.on("register:show", function() {
+		if(BackboneAuth.SessionApp.Controller.getState()) return false;
 		BackboneAuth.navigate("register");
 		API.showRegister();
 	});

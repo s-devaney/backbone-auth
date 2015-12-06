@@ -11,6 +11,11 @@ BackboneAuth.module("RegisterApp.Show", function(Show, BackboneAuth, Backbone, M
 						console.log("reg is good");
 						console.log(model);
 						sessionChannel.trigger("session:login", model);
+					},
+
+					error: function(model, response, options) {
+						console.log("reg is bad");
+						console.log(response);
 					}
 				});
 

@@ -26,4 +26,8 @@ BackboneAuth.module("SessionApp.Controller", function(Controller, BackboneAuth, 
 	Controller.getJWT = function() {
 		return this.JWT;
 	};
+
+	Controller.getState = function() {
+		return (this.JWT === null) ? false : true;
+	}
 });
