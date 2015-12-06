@@ -9,7 +9,7 @@ BackboneAuth.module("SessionApp", function(SessionApp, BackboneAuth, Backbone, M
 
 	var API = {
 		logout: function() {
-			SessionApp.Logout.Controller.actionLogout();
+			SessionApp.Controller.EndSession();
 		},
 
 		login: function(model) {
@@ -25,5 +25,7 @@ BackboneAuth.module("SessionApp", function(SessionApp, BackboneAuth, Backbone, M
 		new SessionApp.Router({
 			controller: API
 		});
+
+		SessionApp.Controller.InitialiseSession();
 	});
 });
